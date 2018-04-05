@@ -1,52 +1,174 @@
 <!DOCTYPE html>
 <html>
-<title>Select Free Time</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="w3-colors-camo.css">
-<link rel="stylesheet" href="w3-colors-2017.css">
-<link rel="stylesheet" href="w3-colors-food.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="fahstyle.css">
+<head>
+    <title>Select Free Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="w3-colors-camo.css">
+    <link rel="stylesheet" href="w3-colors-2017.css">
+    <link rel="stylesheet" href="w3-colors-food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fahstyle.css">
+</head>
 
 <style>
-    h1
-    {
+    h1 {
         text-align: center;
     }
-    h5
-    {
+
+    h5 {
         text-align: center;
     }
-    .footer-paragraph
-    {
+
+    .footer-paragraph {
         text-align: center;
         font-size: x-small;
     }
+
+    #content {
+        margin-bottom: 10em;
+    }
 </style>
+
 <body>
+    <div class="w3-container w3-camo-green">
+        <h1>Reservation System</h1>
+    </div>
 
-<div class="w3-container w3-camo-green">
-    <h1>Reservation System</h1>
-</div>
+    <div class="w3-bar w3-black">
+        <a href="#" class="w3-bar-item w3-button">View Reservations</a>
+        <a href="#" class="fah-bar-item-active w3-bar-item w3-button">Select Free Time</a>
+        <a href="#" class="w3-bar-item w3-button">Edit Information</a>
 
-<div class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button">View Reservations</a>
-    <a href="#" class="fah-bar-item-active w3-bar-item w3-button">Select Free Time</a>
-    <a href="#" class="w3-bar-item w3-button">Edit Information</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">About</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
+    </div>
 
-    <a href="#" class="w3-bar-item w3-button w3-right">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
-</div>
+    <div class="w3-container" id="content">
 
-<div class="w3-container">
-    <div style="height: 500px;"></div>
-</div>
+        <h2>Your Time Table</h2>
+        <p>Select the times you can service clients in the table below:</p>
+        <div class="w3-responsive">
+            <table class="w3-table-all">
+                <tr>
+                    <th>Day</th>
+                    <th>8:00-9:00</th>
+                    <th>9:00-10:00</th>
+                    <th>10:00-11:00</th>
+                    <th>11:00-12:00</th>
+                    <th>12:00-13:00</th>
+                    <th>13:00-14:00</th>
+                    <th>14:00-15:00</th>
+                    <th>15:00-16:00</th>
+                    <th>16:00-17:00</th>
+                    <th>17:00-18:00</th>
+                    <th>18:00-19:00</th>
+                    <th>19:00-20:00</th>
+                    <th>20:00-21:00</th>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td>
+                    <td><button class="w3-button">select</button></td></tr>
+            </table>
+        </div>
 
-<div class="w3-container w3-camo-green">
-    <h5>---</h5>
-    <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
-</div>
+    </div>
 
+    <div class="w3-container w3-camo-green">
+        <h5>---</h5>
+        <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
+    </div>
 </body>
 </html>
