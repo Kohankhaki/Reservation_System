@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html>
-<title>View Reservations</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="w3-colors-camo.css">
-<link rel="stylesheet" href="w3-colors-2017.css">
-<link rel="stylesheet" href="w3-colors-food.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="fahstyle.css">
+<head>
+    <title>View Reservations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="w3-colors-camo.css">
+    <link rel="stylesheet" href="w3-colors-2017.css">
+    <link rel="stylesheet" href="w3-colors-food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fahstyle.css">
+</head>
 
 <style>
-    h1
-    {
+    h1 {
         text-align: center;
     }
-    h5
-    {
+
+    h5 {
         text-align: center;
     }
-    .footer-paragraph
-    {
+
+    .footer-paragraph {
         text-align: center;
         font-size: x-small;
     }
+
+    #content {
+        margin-bottom: 30em;
+    }
 </style>
+
 <body>
+    <div class="w3-container w3-camo-green">
+        <h1>Reservation System</h1>
+    </div>
 
-<div class="w3-container w3-camo-green">
-    <h1>Reservation System</h1>
-</div>
+    <div class="w3-bar w3-black">
+        <a href="#" class="fah-bar-item-active w3-bar-item w3-button">View Reservations</a>
+        <a href="#" class="w3-bar-item w3-button">Select Free Time</a>
+        <a href="#" class="w3-bar-item w3-button">Edit Information</a>
 
-<div class="w3-bar w3-black">
-    <a href="#" class="fah-bar-item-active w3-bar-item w3-button">View Reservations</a>
-    <a href="#" class="w3-bar-item w3-button">Select Free Time</a>
-    <a href="#" class="w3-bar-item w3-button">Edit Information</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">About</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
+    </div>
 
-    <a href="#" class="w3-bar-item w3-button w3-right">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
-</div>
+    <div class="w3-container" id="content">
+        <h2>Your Reservations</h2>
+        <p>Here is the list of your clients and the time they reserved:</p>
+        <ul class="w3-ul w3-card-4">
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Mike</span><br>
+                    <span>Thursday 4/5/2018 on 10:00am</span>
+                </div>
+            </li>
 
-<div class="w3-container">
-    <div style="height: 500px;"></div>
-</div>
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Jill</span><br>
+                    <span>Thursday 4/5/2018 on 15:00pm</span>
+                </div>
+            </li>
 
-<div class="w3-container w3-camo-green">
-    <h5>---</h5>
-    <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
-</div>
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Jane</span><br>
+                    <span>Thursday 4/5/2018 on 16:30pm</span>
+                </div>
+            </li>
+        </ul>
+    </div>
 
+    <div class="w3-container w3-camo-green">
+        <h5>---</h5>
+        <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
+    </div>
 </body>
 </html>
