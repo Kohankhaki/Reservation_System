@@ -1,29 +1,35 @@
-
-h1 {
+h1
+{
     text-align: center;
 }
 
-h5 {
+h5
+{
     text-align: center;
 }
 
-h3 {
+h3
+{
     margin: 20px;
 }
 
-.footer-paragraph {
+.footer-paragraph
+{
     text-align: center;
     font-size: x-small;
 }
 
-.fah-bar-item-active {
+.fah-bar-item-active
+{
     background-color: #9bae61;
 }
 
-.card-content {
+.card-content
+{
     margin-bottom: 30em;
 }
 
-.table-content {
+.table-content
+{
     margin-bottom: 10em;
 }

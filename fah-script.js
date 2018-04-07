@@ -1,4 +1,6 @@
 function changeColorOnSelect(obj) {
-    obj.style.backgroundColor = "palegreen";
+    if (obj.style.backgroundColor == "palegreen")
+        obj.style.backgroundColor = obj.parentElement.style.backgroundColor;
+    else
+        obj.style.backgroundColor = "palegreen";
 }
-
