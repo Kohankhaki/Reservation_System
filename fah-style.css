@@ -1,14 +1,14 @@
 
 h1 {
-text-align: center;
+    text-align: center;
 }
 
 h5 {
-text-align: center;
+    text-align: center;
 }
 
-.fah-bar-item-active {
-    background-color: #9bae61;
+h3 {
+    margin: 20px;
 }
 
 .footer-paragraph {
@@ -16,6 +16,14 @@ text-align: center;
     font-size: x-small;
 }
 
-#content {
+.fah-bar-item-active {
+    background-color: #9bae61;
+}
+
+.card-content {
+    margin-bottom: 30em;
+}
+
+.table-content {
     margin-bottom: 10em;
 }
