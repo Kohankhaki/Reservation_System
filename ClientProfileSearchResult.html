@@ -11,44 +11,75 @@
     <link rel="stylesheet" href="fahstyle.css">
 
     <style>
-        h1
-        {
+        h1 {
             text-align: center;
         }
-        h5
-        {
+
+        h5 {
             text-align: center;
         }
-        .footer-paragraph
-        {
+
+        .footer-paragraph {
             text-align: center;
             font-size: x-small;
         }
+
+        #content {
+            margin-bottom: 30em;
+        }
     </style>
 </head>
+
 <body>
+    <div class="w3-container w3-camo-green">
+        <h1>Reservation System</h1>
+    </div>
 
-<div class="w3-container w3-camo-green">
-    <h1>Reservation System</h1>
-</div>
+    <div class="w3-bar w3-black">
+        <a href="#" class="w3-bar-item w3-button">View Reservations</a>
+        <a href="#" class="fah-bar-item-active w3-bar-item w3-button">Search</a>
+        <a href="#" class="fw3-bar-item w3-button">Edit Information</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">About</a>
+        <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
+    </div>
+
+    <div class="w3-container" id="content">
+        <h2>Search Result</h2>
+        <p>Here is the list of experts you searched for:</p>
+        <ul class="w3-ul w3-card-4">
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Dr. Mike Brown</span><br>
+                    <span>Tehran, Vali-ye-Asr Sq., no 23</span>
+                </div>
+            </li>
+
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Dr. Jill Winston</span><br>
+                    <span>Esfahan, Imam Khomeini St., no 123</span>
+                </div>
+            </li>
+
+            <li class="w3-bar">
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
+                <div class="w3-bar-item">
+                    <span class="w3-large">Dr. Jane Berry</span><br>
+                    <span>Mashhad, Imam Reza Blvd., no432</span>
+                </div>
+            </li>
+        </ul>
+    </div>
 
 
-
-<div class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button">View Reservations</a>
-    <a href="#" class="fah-bar-item-active w3-bar-item w3-button">Search</a>
-    <a href="#" class="fw3-bar-item w3-button">Edit Information</a>
-    <a href="#" class="w3-bar-item w3-button w3-right">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-right">Contact</a>
-</div>
-
-<div class="w3-container">
-</div>
-
-<div class="w3-container w3-camo-green">
-    <h5>---</h5>
-    <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
-</div>
-
+    <div class="w3-container w3-camo-green">
+        <h5>---</h5>
+        <p class="footer-paragraph">Seyed Mohammad Hosein Mousavi - Hadis Sanei Mousavi - Farnaz Kohankhaki</p>
+    </div>
 </body>
 </html>
