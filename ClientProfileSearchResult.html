@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="w3-colors-food.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fah-style.css">
+    <script src = "fah-script.js" type = "text/javascript" language = "javascript"></script>
 </head>
 
 <body>
@@ -29,7 +30,10 @@
         <p>Here is the list of experts you searched for:</p>
         <ul class="w3-ul w3-card-4">
             <li class="w3-bar">
-                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">X</span>
+                <span class="w3-bar-item w3-button w3-large" onclick="changeCardColor(this)">
+                    <i class="w3-large fa fa-check w3-bar-item w3-circle w3-hide-small w3-right" style="width:60px"></i>
+                </span>
                 <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
                 <div class="w3-bar-item">
                     <span class="w3-large">Dr. Mike Brown</span><br>
@@ -38,7 +42,10 @@
             </li>
 
             <li class="w3-bar">
-                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">X</span>
+                <span class="w3-bar-item w3-button w3-large" onclick="changeCardColor(this)">
+                    <i class="w3-large fa fa-check w3-bar-item w3-circle w3-hide-small w3-right" style="width:60px"></i>
+                </span>
                 <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
                 <div class="w3-bar-item">
                     <span class="w3-large">Dr. Jill Winston</span><br>
@@ -47,7 +54,10 @@
             </li>
 
             <li class="w3-bar">
-                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">X</span>
+                <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">X</span>
+                <span class="w3-bar-item w3-button w3-large" onclick="changeCardColor(this)">
+                    <i class="w3-large fa fa-check w3-bar-item w3-circle w3-hide-small w3-right" style="width:60px"></i>
+                </span>
                 <i class="w3-xxlarge fa fa-user w3-bar-item w3-circle w3-hide-small" style="width:85px"></i>
                 <div class="w3-bar-item">
                     <span class="w3-large">Dr. Jane Berry</span><br>
