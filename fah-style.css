@@ -1,0 +1,21 @@
+
+h1 {
+text-align: center;
+}
+
+h5 {
+text-align: center;
+}
+
+.fah-bar-item-active {
+    background-color: #9bae61;
+}
+
+.footer-paragraph {
+    text-align: center;
+    font-size: x-small;
+}
+
+#content {
+    margin-bottom: 10em;
+}
